@@ -1,9 +1,11 @@
 # Summary
-Illustrate the difference in the generated header with/without `APPLICATION_EXTENSION_API_ONLY`/`-application-extension`
+Illustrate the difference in the generated header with/without `APPLICATION_EXTENSION_API_ONLY`/`-application-extension`.
 
 |ExtensionSafe vs. ExtensionUnsafe|
 |---|
 |![](images/header_diff.png)|
+
+Generated from Xcode `Version 12.5 (12E262)`.
 
 # Generate Diff Locally
 
