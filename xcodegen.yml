@@ -1,0 +1,24 @@
+name: GeneratedHeaderDiff
+options:
+  createIntermediateGroups: true
+targets:
+  ExtensionSafe:
+    sources:
+      - ExtensionSafe
+      - Shared
+    platform: iOS
+    type: framework
+    scheme:
+      gatherCoverageData: true
+    settings:
+      APPLICATION_EXTENSION_API_ONLY: true
+  ExtensionUnsafe:
+    sources:
+      - ExtensionUnsafe
+      - Shared
+    platform: iOS
+    type: framework
+    scheme:
+      gatherCoverageData: true
+    settings:
+      APPLICATION_EXTENSION_API_ONLY: false
